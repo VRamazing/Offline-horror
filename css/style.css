@@ -1,0 +1,36 @@
+.story, ul.options{
+  background-color: #dfdfdf;
+  display:block;
+  width: 500px;
+  margin:auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #e0e0e0;
+}
+
+div.container{
+	margin-top: 50px;
+}
+
+ul.options{
+  background-color: #fff;
+  border:none;
+  list-style:none;
+}
+
+ul.options > li{
+  background-color: lightblue;
+  margin:10px 0px;
+  padding: 10px;
+  border-radius: 5px;  
+}
+
+ul.options > li:hover{
+   background-color: cyan;
+   cursor: pointer;
+}
+
+ul.options > li:focus{
+   background-color: green;
+   cursor: pointer;
+}
