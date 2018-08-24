@@ -4,10 +4,17 @@
   var storyIndex = 0;
   var gameOver = false;
   var optionsClicked = false;
+  //for testing
+  document.addEventListener('keydown', function(event){
+    if(event.key == 'd'){
+      console.log("Button Clicked");
+      updateStoryIndex(0);
+    }
+  })
   
   var updateStoryIndex = function(val){
-	storyIndex = val
-	optionsClicked = true;
+	  storyIndex = val
+	  optionsClicked = true;
     console.log(val);
   }
   
@@ -29,16 +36,16 @@
           }
           console.log("DOM updating");}, 3000);
     }
-   
-    currentOptions.forEach(function(item,index){
-      var listItem = document.createElement("li");
-      var listItemText = document.createTextNode(item.text);
-      listItem.appendChild(listItemText);
-      listItem.addEventListener('click', function(){updateStoryIndex(item.resultStoryIndex)});
-      optionListElem.appendChild(listItem);
-      console.log("DOM updating");
-    });
-    
+    else{
+       currentOptions.forEach(function(item,index){
+        var listItem = document.createElement("li");
+        var listItemText = document.createTextNode(item.text);
+        listItem.appendChild(listItemText);
+        listItem.addEventListener('click', function(){updateStoryIndex(item.resultStoryIndex)});
+        optionListElem.appendChild(listItem);
+        console.log("DOM updating");
+      });
+    }    
   }
 
  addStoryAndOptions();
