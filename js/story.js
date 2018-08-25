@@ -124,7 +124,8 @@ var storyList = [
   },
   //27
   {text: "The man picks you up and adds to his mini collection jar. Atleast you won't die alone. ",
-    optionsIndex: 0,
+     optionsIndex: 0,
+   storyUpdateIndex: 50
   },
   //28
   {text: "You come accross a soda stand. ",
@@ -155,8 +156,9 @@ var storyList = [
   storyUpdateIndex: 34
   },
   //34
-  {text: "The last thing you ever saw bright lights of a car racing towards you. Now you wish you had picked that phone. Maybe she was trying to worn you. ",
-   optionsIndex: 0
+  {text: "The last thing you ever saw bright lights of a car racing towards you. Now you wish you had picked that phone. Maybe she was trying to warn you. But who cares now, It's all in past.",
+   optionsIndex: 0,
+   storyUpdateIndex: 50
   },
   //35
   {text: "She is surprised but happy that you have chosen a healthier alternative for recreation. She reminds you that you need to do your homework and reminds you to get back in time.",
@@ -173,56 +175,70 @@ var storyList = [
   },
   //36
   {text: "You reach back home and see internet is back. You log in and get ready to play. It wasn't such a bad day afterall.",
-  optionsIndex: 0,
+   optionsIndex: 0,
+   storyUpdateIndex: 50
   },
   //37
-  {text: "You decide to walk back. On the way you came accross same house. It's super dark",
+  {text: "You decide to walk back. On the way you came accross same house. It's super dark and you think you saw a flicker in house. It's weird cause the house seemed abondoned.",
   optionsIndex: 0
   },
   //38
   {text: "Out of nowhere you hear a loud bang and green lights.",
-  optionsIndex: 0
+  optionsIndex: 14
   },
-  {text: "Scared. You ran away to the house.",
-  optionsIndex: 0
+  //39
+  {text: "Scared. You ran away to your house.",
+  optionsIndex: 0,
+  storyUpdateIndex: 40
   },
-  {text: "You ask mom if she knows anything about the house. She is confused. She says there is no such house. But an empty plot.",
-  optionsIndex: 0
+  //40
+  {text: "You ask mom if she knows anything about the house. She is confused. She says there is no such house in the entire locality. You are scared now.",
+  optionsIndex: 15,
   },
+   //41
+  {text: "You are a brave soul. You decide to inspect the noise.",
+  optionsIndex: 0,
+  storyUpdateIndex: 22
+  },
+  //42
+  {text: "You want to play game to calm your mind.",
+  storyUpdateIndex: 43
+  },
+  //43
+  {text: "Internet is back. You load up the game. Only now the level is different. It seems familiar. It's a house. The house you just came across. You hear the same loud bang you heard minutes ago.",
+  storyUpdateIndex: 44
+  },
+  //44
+  {text: "Before you can scream. The power goes off. The last thing you saw was a large man holding a jar with multi colored marbles inside",
+   optionsIndex: 0,
+   storyUpdateIndex: 50
+  },
+  //45
   {text: "You decide to do homework and go to sleep for now. You have a feeling you definitely saw something. You will explore again tomorrow",
-  optionsIndex: 0
+  optionsIndex: 0,
+  storyUpdateIndex: 46
   },
+  //46
   {text: "You woke up early the next day and decide to go for a walk",
-  optionsIndex: 0
+  optionsIndex: 0,
+  storyUpdateIndex: 47
   },
+  //47
   {text: "You came accross the same house. Only now there is an empty plot. ",
-   optionsIndex: 0
+   optionsIndex: 0,
+   storyUpdateIndex: 48
   },
+  //48
   {text: "Hows this even possible. You definitely saw a house there yesterday. You wonder if you were dreaming",
-   optionsIndex: 0
+   optionsIndex: 0,
+   storyUpdateIndex: 49
   },
-  {text: "You keep walking and out of nowhere you collide with an unknown man. You wonder from where did he popped out of",
-   optionsIndex: 0
-  },
-  {text: "He says he is buying the plot that you were looking at. He jokes that yeah someday it will be old and broken but for not he is buying it. ",
-   optionsIndex: 0
-  },
-  //3
- 
-  //4
-  {text: "You tried calling your network provider but there is no cellular network as well",
-  optionsIndex: 1
-  },
-  //5
-  {text: "You give a call to mom but there is no response.",
-  optionsIndex: 2
-  },
-  //6
-  {text: "You storm back into your room. You see a dirty room with nowhere to lay down.",
-  optionsIndex: 3
-  },
-  //7     
-
+  //49
+  {text: "You keep walking and you overhear some construction workers discussing of building a house on the plot you were looking at. ",
+   optionsIndex: 0,
+   storyUpdateIndex: 50
+  },  
+  //50
   {text: "-THE END-",
    optionsIndex: 0,
   },

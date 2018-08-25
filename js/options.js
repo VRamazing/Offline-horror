@@ -122,10 +122,42 @@ var optionsList = [
    //12
    [
      {text: 'Say yes',
-      resultStoryIndex: 32
+      resultStoryIndex: 36
      },
      {text: 'Say no and walk back',
-      resultStoryIndex: 30
+      resultStoryIndex: 37
      }
+   ],
+   //13
+   [
+     {text: 'Stop and inspect',
+      resultStoryIndex: 38
+     },
+     {text: 'Keep walking',
+      resultStoryIndex: 36
+     }
+   ],
+   //14
+   [
+     {text: 'Run away',
+      resultStoryIndex: 38
+     },
+     {text: 'Inspect the noise',
+      resultStoryIndex: 41
+     }
+   ],
+    //15
+   [
+     {text: 'Do Homework and go to sleep',
+      resultStoryIndex: 45
+     },
+     {text: 'Play video game',
+      resultStoryIndex: 43
+     }
+   ],
+   [
+     {text: 'Replay',
+      resultStoryIndex: 0
+     },
    ],
 ]
