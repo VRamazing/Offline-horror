@@ -4,6 +4,7 @@
   var storyIndex = 0;
   var gameOver = false;
   var optionsClicked = false;
+  var gameStarted = false;
   //for testing
   document.addEventListener('keydown', function(event){
     if(event.key == 'd'){
@@ -47,12 +48,22 @@
       });
     }    
   }
+  if(gameStarted){
+    addStoryAndOptions();
+  }
+  else{
+     storySource.innerHTML = "O &nbsp; F &nbsp; F &nbsp; - &nbsp; L &nbsp; I &nbsp; N &nbsp; E";
+      var listItem = document.createElement("li");
+      var listItemText = document.createTextNode("Start game");
+      listItem.appendChild(listItemText);
+      listItem.addEventListener('click', function(){gameStarted = true; updateStoryIndex(0)});
+      optionListElem.appendChild(listItem);
 
- addStoryAndOptions();
+  }
   
  setInterval(function(){
- 	if(optionsClicked){
- 		clearDom();
+ 	if(optionsClicked && gameStarted){
+ 		  clearDom();
     	addStoryAndOptions();
     	optionsClicked = false;
  	}

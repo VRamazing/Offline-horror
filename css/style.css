@@ -1,5 +1,9 @@
+*{
+  color: #efefef;
+}
+
 .story, ul.options{
-  background-color: #dfdfdf;
+  background-color: #272731;
   display:block;
   width: 500px;
   margin:auto;
@@ -19,18 +23,28 @@ ul.options{
 }
 
 ul.options > li{
-  background-color: lightblue;
+  background-color: #76181D;
+  color: #e0e0e0;
   margin:10px 0px;
   padding: 10px;
   border-radius: 5px;  
 }
 
 ul.options > li:hover{
-   background-color: cyan;
+   background-color: #A82726;
    cursor: pointer;
 }
 
 ul.options > li:focus{
    background-color: green;
    cursor: pointer;
+}
+
+footer{
+  position: absolute;
+  bottom: 15px;
+  left: 40%;
+  color: #3F3F3F;
+  font-style:italics;
+  
 }
